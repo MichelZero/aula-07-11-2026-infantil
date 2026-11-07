@@ -1,9 +1,10 @@
-# 
-#
+# autor: Michel
+# data: 07/11/2026
+
 '''
 for i in range(3):
-  nota1 = int(input(f"informe a nota 1_aluno{i+1}: "))
-  nota2 = int(input(f"informe a nota 2_aluno{i+1}: "))
+    nota1 = int(input(f"informe a nota 1_aluno{i+1}: "))
+    nota2 = int(input(f"informe a nota 2_aluno{i+1}: "))
 '''
 
 nota1 = 9 # int
@@ -14,11 +15,8 @@ palavra = 'texto' # String
 lista = [] # lista vazia
 # crie uma exemplo te uso de lista 
 minha_lista = [1, 2, 3, 4, 5]
+print(lista)
 print(minha_lista)
-
-# lista de notas
-lista_mista = [6, 8, [1, [2], 3], 7.5, 5]
-
 
 # faça o uso de lista com o for loop
 for numero in minha_lista:
@@ -30,5 +28,10 @@ for i in range(len(minha_lista)):
     
 # adicione um elemento na lista
 minha_lista.append(6)
+minha_lista.append(3)
+minha_lista.append(1)
 print(minha_lista)
 
+
+# lista de notas
+lista_mista = [6, [1, 2, 3], 7, 5]
